@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mara Tolentino</title>
+
+    <link class="icon" type="image/svg+xml" href="LOGO.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="bg-blobs" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+    </div>
+
+    <!-- GLASS NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-glass px-4">
+        <div class="container-fluid px-0 position-relative" style="min-height: 50px;">
+
+            <a class="navbar-brand p-0 position-absolute top-50 start-0 translate-middle-y" href="#"
+                style="z-index: 1050;">
+                <img src="assets/images/LOGO.svg" alt="Logo" width="60" height="60"
+                    class="d-inline-block align-text-top">
+            </a>
+
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav monstext fw-medium text-lowercase gap-lg-4" style="font-size: 14px;">
+                    <li class="nav-item"><a class="nav-link" href="index.html">about</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="project.html">projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="experience.html">experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="achievements.html">achievements</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid min-vh-100 bg-pastel-pink d-flex flex-column profile-hero-wrapper">
+
+        <div class="container mt-2 mb-auto position-relative px-0 px-md-3">
+
+            <div class="row mb-5">
+                <div class="col-12 text-start">
+                    <h1 class="display-4 prata lh-sm mb-2 text-gradient-project">My projects</h1>
+                    <p class="monstext text-secondary-copy lh-lg" style="font-size: 16px; opacity: 0.85;">
+                        Selected works that highlight my growth in creating meaningful digital experiences through technology.
+                    </p>
+                </div>
+            </div>
+
+            <!-- PROJECTS GRID -->
+            <div class="row g-4 g-lg-5 mb-5">
+
+                <!-- PROJECT CARD: BLOOM POS SYSTEM -->
+                <div class="col-12 col-md-4">
+                    <div class="bg-white border-0 rounded-5 shadow-sm p-3 h-100 toolkit-card d-flex flex-column justify-content-between">
+                        <div>
+                           
+                            <div class="project-image-placeholder rounded-4 mb-4 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-2 opacity-25"></i>
+                            </div>
+                            
+                            <div class="px-2 text-start">
+                                <h3 class="prata text-pink fs-4 mb-2">BLOOM: POS System</h3>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 14px;">
+                                    A point-of-sale system designed to simplify business transactions, inventory management, and sales monitoring through an organized and user-friendly interface.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="px-2 pb-2 d-flex justify-content-end">
+                            <button class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-3 rounded-pill" data-bs-toggle="modal" data-bs-target="#modalBloom">
+                                See More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD: TINDAHAN GOVERNMENT PORTAL -->
+                <div class="col-12 col-md-4">
+                    <div class="bg-white border-0 rounded-5 shadow-sm p-3 h-100 toolkit-card d-flex flex-column justify-content-between">
+                        <div>
+                            
+                            <div class="project-image-placeholder rounded-4 mb-4 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-2 opacity-25"></i>
+                            </div>
+                            
+                            <div class="px-2 text-start">
+                                <h3 class="prata text-pink fs-4 mb-2">TINDAHAN: System Portal </h3>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 14px;">
+                                    A web-based portal that combines government business request processing with e-commerce features to help store owners manage documents, applications, and store-related transactions efficiently.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="px-2 pb-2 d-flex justify-content-end">
+                            <button class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-3 rounded-pill" data-bs-toggle="modal" data-bs-target="#modalTindahan">
+                                See More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD: SAGIPQ  -->
+                <div class="col-12 col-md-4">
+                    <div class="bg-white border-0 rounded-5 shadow-sm p-3 h-100 toolkit-card d-flex flex-column justify-content-between">
+                        <div>
+                            
+                            <div class="project-image-placeholder rounded-4 mb-4 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-2 opacity-25"></i>
+                            </div>
+                            
+                            <div class="px-2 text-start">
+                                <h3 class="prata text-pink fs-4 mb-2">SagipQ: Hackathon Project</h3>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 14px;">
+                                    A hackathon project focused on creating a user-centered solution that addresses real-world community concerns through collaboration, innovation, and technology.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="px-2 pb-2 d-flex justify-content-end">
+                            <button class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-3 rounded-pill" data-bs-toggle="modal" data-bs-target="#modalSagipq">
+                                See More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD: CRYPTFALL -->
+                <div class="col-12 col-md-4">
+                    <div class="bg-white border-0 rounded-5 shadow-sm p-3 h-100 toolkit-card d-flex flex-column justify-content-between">
+                        <div>
+                            
+                            <div class="project-image-placeholder rounded-4 mb-4 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-2 opacity-25"></i>
+                            </div>
+                            
+                            <div class="px-2 text-start">
+                                <h3 class="prata text-pink fs-4 mb-2">CryptFall: Pygame</h3>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 14px;">
+                                    A 2D game developed using Pygame that combines interactive gameplay mechanics, problem-solving, and creative design in an engaging digital environment.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="px-2 pb-2 d-flex justify-content-end">
+                            <button class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-3 rounded-pill" data-bs-toggle="modal" data-bs-target="#modalCryptfall">
+                                See More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD: UGC PORTFOLIO E-COMMERCE -->
+                <div class="col-12 col-md-4">
+                    <div class="bg-white border-0 rounded-5 shadow-sm p-3 h-100 toolkit-card d-flex flex-column justify-content-between">
+                        <div>
+                            
+                            <div class="project-image-placeholder rounded-4 mb-4 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-2 opacity-25"></i>
+                            </div>
+                            
+                            <div class="px-2 text-start">
+                                <h3 class="prata text-pink fs-4 mb-2">UGC: E-commerce Website</h3>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 14px;">
+                                    An e-commerce platform designed to showcase products, collaborations, and digital content through a visually engaging and responsive user experience.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="px-2 pb-2 d-flex justify-content-end">
+                            <button class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-3 rounded-pill" data-bs-toggle="modal" data-bs-target="#modalUgc">
+                                See More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD : NURISCALE -->
+                <div class="col-12 col-md-4">
+                    <div class="bg-white border-0 rounded-5 shadow-sm p-3 h-100 toolkit-card d-flex flex-column justify-content-between">
+                        <div>
+                            
+                            <div class="project-image-placeholder rounded-4 mb-4 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-2 opacity-25"></i>
+                            </div>
+                            
+                            <div class="px-2 text-start">
+                                <h3 class="prata text-pink fs-4 mb-2">NuriScale: First Project</h3>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 14px;">
+                                    My first development project that introduced me to the fundamentals of designing and building functional digital systems while strengthening my programming foundation.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="px-2 pb-2 d-flex justify-content-end">
+                            <button class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-3 rounded-pill" data-bs-toggle="modal" data-bs-target="#modalNuriscale">
+                                See More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD: NSRP -->
+                <div class="col-12 col-md-4">
+                    <div class="bg-white border-0 rounded-5 shadow-sm p-3 h-100 toolkit-card d-flex flex-column justify-content-between">
+                        <div>
+                            
+                            <div class="project-image-placeholder rounded-4 mb-4 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-2 opacity-25"></i>
+                            </div>
+                            
+                            <div class="px-2 text-start">
+                                <h3 class="prata text-pink fs-4 mb-2">NSRP Form: SQLite Database</h3>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 14px;">
+                                    A database-driven form system powered by SQLite that manages and organizes records efficiently through structured data handling and CRUD functionalities.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="px-2 pb-2 d-flex justify-content-end">
+                            <button class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-3 rounded-pill" data-bs-toggle="modal" data-bs-target="#modalNsrp">
+                                See More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD: PINGGANG PINOY -->
+                <div class="col-12 col-md-4">
+                    <div class="bg-white border-0 rounded-5 shadow-sm p-3 h-100 toolkit-card d-flex flex-column justify-content-between">
+                        <div>
+                            
+                            <div class="project-image-placeholder rounded-4 mb-4 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-2 opacity-25"></i>
+                            </div>
+                            
+                            <div class="px-2 text-start">
+                                <h3 class="prata text-pink fs-4 mb-2">Pinggang Pinoy: E-commerce </h3>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 14px;">
+                                    A collaborative web-based project that promotes healthier meal planning and accessible nutrition solutions through an interactive and user-friendly platform.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="px-2 pb-2 d-flex justify-content-end">
+                            <button class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-3 rounded-pill" data-bs-toggle="modal" data-bs-target="#modalPinggang">
+                                See More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD: FIGMA -->
+                <div class="col-12 col-md-4">
+                    <div class="bg-white border-0 rounded-5 shadow-sm p-3 h-100 toolkit-card d-flex flex-column justify-content-between">
+                        <div>
+                            
+                            <div class="project-image-placeholder rounded-4 mb-4 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-2 opacity-25"></i>
+                            </div>
+                            
+                            <div class="px-2 text-start">
+                                <h3 class="prata text-pink fs-4 mb-2">Website Designing in Figma</h3>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 14px;">
+                                    A collection of website interface designs created in Figma that focus on user-centered design, layout structure, and visual consistency. It highlights to transform ideas into functional UI/UX concepts.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="px-2 pb-2 d-flex justify-content-end">
+                            <button class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-3 rounded-pill" data-bs-toggle="modal" data-bs-target="#modalFigma">
+                                See More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer class="container my-2 pt-1">
+            <div class="border-top pt-4 d-flex flex-wrap justify-content-between align-items-center gap-1"
+                style="border-color: rgba(207, 73, 117, 0.3) !important;">
+
+                <div class="d-flex align-items-center">
+                    <div class="me-3 d-flex align-items-center justify-content-center"
+                        style="max-width: 65px; height: auto;">
+                        <img src="assets/images/LOGO.svg" alt="Mara Tolentino Logo" class="img-fluid">
+                    </div>
+
+                    <div class="monstext text-start" style="font-size: 12px; letter-spacing: 0.02em;">
+                        <div class="text-secondary-copy fw-medium" style="opacity: 0.85;">Polytechnic University of the Philippines</div>
+                        <div class="text-pink fw-semibold" style="font-size: 12px;">Sto. Tomas Campus</div>
+                    </div>
+                </div>
+
+                <div class="monstext text-end" style="font-size: 10px; letter-spacing: 0.06em;">
+                    <div class="text-secondary-copy fw-medium text-uppercase mb-1" style="opacity: 0.85;">&copy; 2026 Mara Tolentino</div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- MODAL OVERLAY : BLOOM POS SYSTEM -->
+    <div class="modal fade" id="modalBloom" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
+                
+                <div class="modal-header border-0 p-0 d-flex justify-content-end">
+                    <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                
+                <div class="modal-body pt-0 px-2 px-md-3">
+                    <div class="row g-4 align-items-center">
+                        
+                        <div class="col-12 col-md-6">
+                            <div class="project-modal-image-placeholder rounded-5 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-1 opacity-25"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                            <div>
+                                <h2 class="prata text-pink display-6 mb-4">BLOOM: POS System</h2>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 16px; opacity: 0.9;">
+                                    A point-of-sale system designed to simplify business transactions, inventory management, and sales monitoring through an organized and user-friendly interface.
+                                </p>
+                            </div>
+                           
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <a href="#" class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2" style="font-size: 12px; opacity: 0.8;">
+                                    <i class="bi bi-github fs-5"></i> See GitHub Repository
+                                </a>
+                                <button type="button" class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-4 rounded-pill border-0" style="font-size: 11px; background-color: #FFDCDB;">
+                                    View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="px-3 pt-3 border-0 text-start">
+                    <small class="monstext text-secondary-copy" style="font-size: 11px; opacity: 0.7;">Credits: Aila, Charlize, Khyle, Mariane</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL OVERLAY: TINDAHAN GOVERNMENT PORTAL -->
+    <div class="modal fade" id="modalTindahan" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
+                <div class="modal-header border-0 p-0 d-flex justify-content-end">
+                    <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0 px-2 px-md-3">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-12 col-md-6">
+                            <div class="project-modal-image-placeholder rounded-5 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-1 opacity-25"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                            <div>
+                                <h2 class="prata text-pink display-6 mb-4">TINDAHAN: System Portal</h2>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 16px; opacity: 0.9;">
+                                    A web-based portal that combines government business request processing with e-commerce features to help store owners manage documents, applications, and store-related transactions efficiently.
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <a href="#" class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2" style="font-size: 12px; opacity: 0.8;">
+                                    <i class="bi bi-github fs-5"></i> See GitHub Repository
+                                </a>
+                                <button type="button" class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-4 rounded-pill border-0" style="font-size: 11px; background-color: #FFDCDB;">
+                                    View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 pt-3 border-0 text-start">
+                    <small class="monstext text-secondary-copy" style="font-size: 11px; opacity: 0.7;">Credits: Group Contributors</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL OVERLAY: SAGIPQ -->
+    <div class="modal fade" id="modalSagipq" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
+                <div class="modal-header border-0 p-0 d-flex justify-content-end">
+                    <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0 px-2 px-md-3">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-12 col-md-6">
+                            <div class="project-modal-image-placeholder rounded-5 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-1 opacity-25"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                            <div>
+                                <h2 class="prata text-pink display-6 mb-4">SagipQ: Hackathon Project</h2>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 16px; opacity: 0.9;">
+                                    A hackathon project focused on creating a user-centered solution that addresses real-world community concerns through collaboration, innovation, and technology.
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <a href="#" class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2" style="font-size: 12px; opacity: 0.8;">
+                                    <i class="bi bi-github fs-5"></i> See GitHub Repository
+                                </a>
+                                <button type="button" class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-4 rounded-pill border-0" style="font-size: 11px; background-color: #FFDCDB;">
+                                    View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 pt-3 border-0 text-start">
+                    <small class="monstext text-secondary-copy" style="font-size: 11px; opacity: 0.7;">Credits: Hackathon Team</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL OVERLAY: CRYPTFALL -->
+    <div class="modal fade" id="modalCryptfall" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
+                <div class="modal-header border-0 p-0 d-flex justify-content-end">
+                    <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0 px-2 px-md-3">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-12 col-md-6">
+                            <div class="project-modal-image-placeholder rounded-5 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-1 opacity-25"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                            <div>
+                                <h2 class="prata text-pink display-6 mb-4">CryptFall: Pygame</h2>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 16px; opacity: 0.9;">
+                                    A 2D game developed using Pygame that combines interactive gameplay mechanics, problem-solving, and creative design in an engaging digital environment.
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <a href="#" class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2" style="font-size: 12px; opacity: 0.8;">
+                                    <i class="bi bi-github fs-5"></i> See GitHub Repository
+                                </a>
+                                <button type="button" class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-4 rounded-pill border-0" style="font-size: 11px; background-color: #FFDCDB;">
+                                    View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 pt-3 border-0 text-start">
+                    <small class="monstext text-secondary-copy" style="font-size: 11px; opacity: 0.7;">Credits: Solo Developer</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL OVERLAY: UGC PORTFOLIO -->
+    <div class="modal fade" id="modalUgc" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
+                <div class="modal-header border-0 p-0 d-flex justify-content-end">
+                    <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0 px-2 px-md-3">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-12 col-md-6">
+                            <div class="project-modal-image-placeholder rounded-5 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-1 opacity-25"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                            <div>
+                                <h2 class="prata text-pink display-6 mb-4">UGC: E-commerce Website</h2>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 16px; opacity: 0.9;">
+                                    An e-commerce platform designed to showcase products, collaborations, and digital content through a visually engaging and responsive user experience.
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <a href="#" class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2" style="font-size: 12px; opacity: 0.8;">
+                                    <i class="bi bi-github fs-5"></i> See GitHub Repository
+                                </a>
+                                <button type="button" class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-4 rounded-pill border-0" style="font-size: 11px; background-color: #FFDCDB;">
+                                    View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 pt-3 border-0 text-start">
+                    <small class="monstext text-secondary-copy" style="font-size: 11px; opacity: 0.7;">Credits: Dev Team</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL OVERLAY: NURISCALE -->
+    <div class="modal fade" id="modalNuriscale" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
+                <div class="modal-header border-0 p-0 d-flex justify-content-end">
+                    <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0 px-2 px-md-3">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-12 col-md-6">
+                            <div class="project-modal-image-placeholder rounded-5 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-1 opacity-25"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                            <div>
+                                <h2 class="prata text-pink display-6 mb-4">NuriScale: First Project</h2>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 16px; opacity: 0.9;">
+                                    My first development project that introduced me to the fundamentals of designing and building functional digital systems while strengthening my programming foundation.
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <a href="#" class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2" style="font-size: 12px; opacity: 0.8;">
+                                    <i class="bi bi-github fs-5"></i> See GitHub Repository
+                                </a>
+                                <button type="button" class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-4 rounded-pill border-0" style="font-size: 11px; background-color: #FFDCDB;">
+                                    View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 pt-3 border-0 text-start">
+                    <small class="monstext text-secondary-copy" style="font-size: 11px; opacity: 0.7;">Credits: Academic Individual</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL OVERLAY: NSRP -->
+    <div class="modal fade" id="modalNsrp" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
+                <div class="modal-header border-0 p-0 d-flex justify-content-end">
+                    <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0 px-2 px-md-3">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-12 col-md-6">
+                            <div class="project-modal-image-placeholder rounded-5 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-1 opacity-25"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                            <div>
+                                <h2 class="prata text-pink display-6 mb-4">NSRP Form: SQLite Database</h2>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 16px; opacity: 0.9;">
+                                    A database-driven form system powered by SQLite that manages and organizes records efficiently through structured data handling and CRUD functionalities.
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <a href="#" class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2" style="font-size: 12px; opacity: 0.8;">
+                                    <i class="bi bi-github fs-5"></i> See GitHub Repository
+                                </a>
+                                <button type="button" class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-4 rounded-pill border-0" style="font-size: 11px; background-color: #FFDCDB;">
+                                    View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 pt-3 border-0 text-start">
+                    <small class="monstext text-secondary-copy" style="font-size: 11px; opacity: 0.7;">Credits: Database Lab Team</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL OVERLAY: PINGGANG PINOY -->
+    <div class="modal fade" id="modalPinggang" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
+                <div class="modal-header border-0 p-0 d-flex justify-content-end">
+                    <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0 px-2 px-md-3">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-12 col-md-6">
+                            <div class="project-modal-image-placeholder rounded-5 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-1 opacity-25"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                            <div>
+                                <h2 class="prata text-pink display-6 mb-4">Pinggang Pinoy: E-commerce</h2>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 16px; opacity: 0.9;">
+                                    A collaborative web-based project that promotes healthier meal planning and accessible nutrition solutions through an interactive and user-friendly platform.
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <a href="#" class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2" style="font-size: 12px; opacity: 0.8;">
+                                    <i class="bi bi-github fs-5"></i> See GitHub Repository
+                                </a>
+                                <button type="button" class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-4 rounded-pill border-0" style="font-size: 11px; background-color: #FFDCDB;">
+                                    View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 pt-3 border-0 text-start">
+                    <small class="monstext text-secondary-copy" style="font-size: 11px; opacity: 0.7;">Credits: Project Group</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL OVERLAY: FIGMA -->
+    <div class="modal fade" id="modalFigma" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
+                <div class="modal-header border-0 p-0 d-flex justify-content-end">
+                    <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0 px-2 px-md-3">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-12 col-md-6">
+                            <div class="project-modal-image-placeholder rounded-5 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image text-secondary fs-1 opacity-25"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                            <div>
+                                <h2 class="prata text-pink display-6 mb-4">Website Designing in Figma</h2>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 16px; opacity: 0.9;">
+                                    A collection of website interface designs created in Figma that focus on user-centered design, layout structure, and visual consistency. It highlights to transform ideas into functional UI/UX concepts.
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <a href="#" class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2" style="font-size: 12px; opacity: 0.8;">
+                                    <i class="bi bi-github fs-5"></i> See GitHub Repository
+                                </a>
+                                <button type="button" class="badge badge-interactive text-pink text-uppercase fw-semibold py-2 px-4 rounded-pill border-0" style="font-size: 11px; background-color: #FFDCDB;">
+                                    View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-3 pt-3 border-0 text-start">
+                    <small class="monstext text-secondary-copy" style="font-size: 11px; opacity: 0.7;">Credits: UI/UX Individual Work</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
