@@ -355,6 +355,14 @@ body {
     overflow: hidden;
 }
 
+.project-image-placeholder img,
+.project-modal-image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 .project-modal-box a.text-pink:hover {
     color: #A63258 !important;
     text-decoration: underline !important;
