@@ -741,3 +741,9 @@ body {
         margin-left: auto !important; 
     }
 }
+
+@media (max-width: 575.98px) {
+    .modal-dialog {
+        margin: 1.5rem;
+    }
+}

@@ -32,23 +32,22 @@
 
     <!-- GLASS NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-glass px-4">
-        <div class="container-fluid px-0 position-relative" style="min-height: 50px;">
+        <div class="container-fluid px-0">
 
-            <a class="navbar-brand p-0 position-absolute top-50 start-0 translate-middle-y" href="#"
-                style="z-index: 1050;">
+            <a class="navbar-brand p-0" href="#">
                 <img src="LOGO.svg" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
             </a>
 
-            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav monstext fw-medium text-lowercase gap-lg-4" style="font-size: 14px;">
                     <li class="nav-item"><a class="nav-link" href="index.html">about</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="project.html">projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="project.html">projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="experience.html">experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="achievements.html">achievements</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="achievements.html">achievements</a></li>
                 </ul>
             </div>
         </div>
@@ -107,7 +106,8 @@
                         <div>
 
                             <div class="project-image-placeholder rounded-4 mb-4 overflow-hidden">
-                                <img src="static/images/Tindahan.png" alt="Tindahan System Portal" class="project-card-img">
+                                <img src="static/images/Tindahan.png" alt="Tindahan System Portal"
+                                    class="project-card-img">
                             </div>
 
                             <div class="px-2 text-start">
@@ -137,7 +137,8 @@
                         <div>
 
                             <div class="project-image-placeholder rounded-4 mb-4 overflow-hidden">
-                                <img src="static/images/SagipQ.png" alt="SagipQ Hackathon Project" class="project-card-img">
+                                <img src="static/images/SagipQ.png" alt="SagipQ Hackathon Project"
+                                    class="project-card-img">
                             </div>
 
                             <div class="px-2 text-start">
@@ -224,7 +225,8 @@
                         <div>
 
                             <div class="project-image-placeholder rounded-4 mb-4 overflow-hidden">
-                                <img src="static/images/Nscale.jpg" alt="NuriScale first project" class="project-card-img">
+                                <img src="static/images/Nscale.jpg" alt="NuriScale first project"
+                                    class="project-card-img">
                             </div>
 
                             <div class="px-2 text-start">
@@ -367,7 +369,7 @@
 
     <!-- MODAL OVERLAY : BLOOM POS SYSTEM -->
     <div class="modal fade" id="modalBloom" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
             <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
 
                 <div class="modal-header border-0 p-0 d-flex justify-content-end">
@@ -382,38 +384,52 @@
                             <div class="project-modal-image-placeholder rounded-5 overflow-hidden">
                                 <div id="carouselBloom" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselBloom" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselBloom" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselBloom" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                        <button type="button" data-bs-target="#carouselBloom" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                        <button type="button" data-bs-target="#carouselBloom" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                                        <button type="button" data-bs-target="#carouselBloom" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                        <button type="button" data-bs-target="#carouselBloom" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselBloom" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselBloom" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselBloom" data-bs-slide-to="3"
+                                            aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#carouselBloom" data-bs-slide-to="4"
+                                            aria-label="Slide 5"></button>
+                                        <button type="button" data-bs-target="#carouselBloom" data-bs-slide-to="5"
+                                            aria-label="Slide 6"></button>
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="static/images/Bloom.png" class="d-block w-100 project-card-img" alt="Bloom POS System">
+                                            <img src="static/images/Bloom.png" class="d-block w-100 project-card-img"
+                                                alt="Bloom POS System">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/B1.png" class="d-block w-100 project-card-img" alt="Bloom POS System - 2">
+                                            <img src="static/images/B1.png" class="d-block w-100 project-card-img"
+                                                alt="Bloom POS System - 2">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/B2.png" class="d-block w-100 project-card-img" alt="Bloom POS System - 3">
+                                            <img src="static/images/B2.png" class="d-block w-100 project-card-img"
+                                                alt="Bloom POS System - 3">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/B3.png" class="d-block w-100 project-card-img" alt="Bloom POS System - 4">
+                                            <img src="static/images/B3.png" class="d-block w-100 project-card-img"
+                                                alt="Bloom POS System - 4">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/B4.png" class="d-block w-100 project-card-img" alt="Bloom POS System - 5">
+                                            <img src="static/images/B4.png" class="d-block w-100 project-card-img"
+                                                alt="Bloom POS System - 5">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/B5.png" class="d-block w-100 project-card-img" alt="Bloom POS System - 6">
+                                            <img src="static/images/B5.png" class="d-block w-100 project-card-img"
+                                                alt="Bloom POS System - 6">
                                         </div>
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselBloom" data-bs-slide="prev">
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselBloom"
+                                        data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselBloom" data-bs-slide="next">
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselBloom"
+                                        data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
@@ -421,12 +437,14 @@
                             </div>
                         </div>
 
-                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between py-2">
                             <div>
-                                <h2 class="prata text-pink display-6 mb-4">BLOOM: POS System</h2>
+                                <h2 class="prata text-pink fs-3 fs-md-display-6 mb-3">BLOOM: POS System</h2>
                                 <p class="monstext text-secondary-copy lh-lg mb-4"
                                     style="font-size: 16px; opacity: 0.9;">
-                                    A point-of-sale system designed to simplify business transactions, inventory management, and sales monitoring through an organized and user-friendly interface. </p>
+                                    A point-of-sale system designed to simplify business transactions, inventory
+                                    management, and sales monitoring through an organized and user-friendly interface.
+                                </p>
 
                                 <p class="monstext text-secondary-copy mb-3" style="font-size:14px; opacity:0.9;">
                                     <strong>Languages:</strong> HTML, CSS, JavaScript, PHP<br>
@@ -456,7 +474,7 @@
 
     <!-- MODAL OVERLAY: TINDAHAN GOVERNMENT PORTAL -->
     <div class="modal fade" id="modalTindahan" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
             <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
                 <div class="modal-header border-0 p-0 d-flex justify-content-end">
                     <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal"
@@ -468,38 +486,48 @@
                             <div class="project-modal-image-placeholder rounded-5 overflow-hidden">
                                 <div id="carouselTindahan" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselTindahan" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselTindahan" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselTindahan" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselTindahan" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselTindahan" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselTindahan" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="static/images/Tindahan.png" class="d-block w-100 project-card-img" alt="Tindahan System Portal">
+                                            <img src="static/images/Tindahan.png" class="d-block w-100 project-card-img"
+                                                alt="Tindahan System Portal">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/T1.png" class="d-block w-100 project-card-img" alt="Tindahan - 2">
+                                            <img src="static/images/T1.png" class="d-block w-100 project-card-img"
+                                                alt="Tindahan - 2">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/T2.png" class="d-block w-100 project-card-img" alt="Tindahan - 3">
+                                            <img src="static/images/T2.png" class="d-block w-100 project-card-img"
+                                                alt="Tindahan - 3">
                                         </div>
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselTindahan" data-bs-slide="prev">
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselTindahan" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselTindahan" data-bs-slide="next">
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselTindahan" data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between py-2">
                             <div>
-                                <h2 class="prata text-pink display-6 mb-4">TINDAHAN: System Portal</h2>
+                                <h2 class="prata text-pink fs-3 fs-md-display-6 mb-3">TINDAHAN: System Portal</h2>
                                 <p class="monstext text-secondary-copy lh-lg mb-4"
                                     style="font-size: 16px; opacity: 0.9;">
-                                    A web-based portal that combines government business request processing with e-commerce features to help store owners manage documents, applications, and store-related transactions efficiently.
+                                    A web-based portal that combines government business request processing with
+                                    e-commerce features to help store owners manage documents, applications, and
+                                    store-related transactions efficiently.
                                 </p>
                                 <p class="monstext text-secondary-copy mb-3" style="font-size:14px; opacity:0.9;">
                                     <strong>Languages:</strong> HTML, CSS, JavaScript, PHP<br>
@@ -512,7 +540,7 @@
                                     style="font-size: 12px; opacity: 0.8;">
                                     <i class="bi bi-github fs-5"></i> See GitHub Repository
                                 </a>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -527,7 +555,7 @@
 
     <!-- MODAL OVERLAY: SAGIPQ -->
     <div class="modal fade" id="modalSagipq" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
             <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
                 <div class="modal-header border-0 p-0 d-flex justify-content-end">
                     <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal"
@@ -540,46 +568,59 @@
                             <div class="project-modal-image-placeholder rounded-5 overflow-hidden">
                                 <div id="carouselSagipq" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselSagipq" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselSagipq" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselSagipq" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                        <button type="button" data-bs-target="#carouselSagipq" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                        <button type="button" data-bs-target="#carouselSagipq" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                        <button type="button" data-bs-target="#carouselSagipq" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselSagipq" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselSagipq" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselSagipq" data-bs-slide-to="3"
+                                            aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#carouselSagipq" data-bs-slide-to="4"
+                                            aria-label="Slide 5"></button>
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="static/images/SagipQ.png" class="d-block w-100 project-card-img" alt="SagipQ Hackathon Project">
+                                            <img src="static/images/SagipQ.png" class="d-block w-100 project-card-img"
+                                                alt="SagipQ Hackathon Project">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/S1.png" class="d-block w-100 project-card-img" alt="SagipQ - 2">
+                                            <img src="static/images/S1.png" class="d-block w-100 project-card-img"
+                                                alt="SagipQ - 2">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/S2.png" class="d-block w-100 project-card-img" alt="SagipQ - 3">
+                                            <img src="static/images/S2.png" class="d-block w-100 project-card-img"
+                                                alt="SagipQ - 3">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/S3.png" class="d-block w-100 project-card-img" alt="SagipQ - 4">
+                                            <img src="static/images/S3.png" class="d-block w-100 project-card-img"
+                                                alt="SagipQ - 4">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/S4.png" class="d-block w-100 project-card-img" alt="SagipQ - 5">
+                                            <img src="static/images/S4.png" class="d-block w-100 project-card-img"
+                                                alt="SagipQ - 5">
                                         </div>
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSagipq" data-bs-slide="prev">
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSagipq"
+                                        data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselSagipq" data-bs-slide="next">
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselSagipq"
+                                        data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between py-2">
                             <div>
-                                <h2 class="prata text-pink display-6 mb-4">SagipQ: Hackathon Project</h2>
+                                <h2 class="prata text-pink fs-3 fs-md-display-6 mb-3">SagipQ: Hackathon Project</h2>
                                 <p class="monstext text-secondary-copy lh-lg mb-4"
                                     style="font-size: 16px; opacity: 0.9;">
-                                    A hackathon project focused on creating a user-centered solution that addresses real-world community concerns through collaboration, innovation, and technology.
+                                    A hackathon project focused on creating a user-centered solution that addresses
+                                    real-world community concerns through collaboration, innovation, and technology.
                                 </p>
                                 <p class="monstext text-secondary-copy mb-3" style="font-size:14px; opacity:0.9;">
                                     <strong>Languages:</strong> HTML, CSS, JavaScript, Python<br>
@@ -602,7 +643,7 @@
 
     <!-- MODAL OVERLAY: CRYPTFALL -->
     <div class="modal fade" id="modalCryptfall" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
             <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
                 <div class="modal-header border-0 p-0 d-flex justify-content-end">
                     <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal"
@@ -614,42 +655,54 @@
                             <div class="project-modal-image-placeholder rounded-5 overflow-hidden">
                                 <div id="carouselCryptfall" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselCryptfall" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselCryptfall" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselCryptfall" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                        <button type="button" data-bs-target="#carouselCryptfall" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#carouselCryptfall" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselCryptfall" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselCryptfall" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselCryptfall" data-bs-slide-to="3"
+                                            aria-label="Slide 4"></button>
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="static/images/Cryptfall2.jpg" class="d-block w-100 project-card-img" alt="CryptFall Pygame screenshot">
+                                            <img src="static/images/Cryptfall2.jpg"
+                                                class="d-block w-100 project-card-img"
+                                                alt="CryptFall Pygame screenshot">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/C1.png" class="d-block w-100 project-card-img" alt="CryptFall - 2">
+                                            <img src="static/images/C1.png" class="d-block w-100 project-card-img"
+                                                alt="CryptFall - 2">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/C2.png" class="d-block w-100 project-card-img" alt="CryptFall - 3">
+                                            <img src="static/images/C2.png" class="d-block w-100 project-card-img"
+                                                alt="CryptFall - 3">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/C3.png" class="d-block w-100 project-card-img" alt="CryptFall - 4">
+                                            <img src="static/images/C3.png" class="d-block w-100 project-card-img"
+                                                alt="CryptFall - 4">
                                         </div>
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCryptfall" data-bs-slide="prev">
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselCryptfall" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselCryptfall" data-bs-slide="next">
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselCryptfall" data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between py-2">
                             <div>
-                                <h2 class="prata text-pink display-6 mb-4">CryptFall: Pygame</h2>
+                                <h2 class="prata text-pink fs-3 fs-md-display-6 mb-3">CryptFall: Pygame</h2>
                                 <p class="monstext text-secondary-copy lh-lg mb-4"
                                     style="font-size: 16px; opacity: 0.9;">
-                                    A 2D game developed using Pygame that combines interactive gameplay mechanics, problem-solving, and creative design in an engaging digital environment.
+                                    A 2D game developed using Pygame that combines interactive gameplay mechanics,
+                                    problem-solving, and creative design in an engaging digital environment.
                                 </p>
                                 <p class="monstext text-secondary-copy mb-3" style="font-size:14px; opacity:0.9;">
                                     <strong>Languages:</strong> Python<br>
@@ -658,8 +711,8 @@
                                 </p>
                             </div>
                             <div class="d-flex justify-content-between align-items-center mt-4">
-                                <a href="https://drive.google.com/drive/folders/1Db-4W3ScGjCZHld3GJCNajW5-Rxwru6B?usp=sharing" target="_blank"
-                                    rel="noopener noreferrer"
+                                <a href="https://drive.google.com/drive/folders/1Db-4W3ScGjCZHld3GJCNajW5-Rxwru6B?usp=sharing"
+                                    target="_blank" rel="noopener noreferrer"
                                     class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2"
                                     style="font-size: 12px; opacity: 0.8;">
                                     <i class="bi bi-google fs-5"></i> See Google Drive Link
@@ -678,7 +731,7 @@
 
     <!-- MODAL OVERLAY: UGC PORTFOLIO -->
     <div class="modal fade" id="modalUgc" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
             <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
                 <div class="modal-header border-0 p-0 d-flex justify-content-end">
                     <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal"
@@ -690,38 +743,47 @@
                             <div class="project-modal-image-placeholder rounded-5 overflow-hidden">
                                 <div id="carouselUgc" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselUgc" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselUgc" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselUgc" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselUgc" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselUgc" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselUgc" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="static/images/UGC.png" class="d-block w-100 project-card-img" alt="UGC E-commerce Website screenshot">
+                                            <img src="static/images/UGC.png" class="d-block w-100 project-card-img"
+                                                alt="UGC E-commerce Website screenshot">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/U1.png" class="d-block w-100 project-card-img" alt="UGC - 2">
+                                            <img src="static/images/U1.png" class="d-block w-100 project-card-img"
+                                                alt="UGC - 2">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/U2.png" class="d-block w-100 project-card-img" alt="UGC - 3">
+                                            <img src="static/images/U2.png" class="d-block w-100 project-card-img"
+                                                alt="UGC - 3">
                                         </div>
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselUgc" data-bs-slide="prev">
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselUgc"
+                                        data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselUgc" data-bs-slide="next">
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselUgc"
+                                        data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between py-2">
                             <div>
-                                <h2 class="prata text-pink display-6 mb-4">UGC: Website Project</h2>
+                                <h2 class="prata text-pink fs-3 fs-md-display-6 mb-3">UGC: Website Project</h2>
                                 <p class="monstext text-secondary-copy lh-lg mb-4"
                                     style="font-size: 16px; opacity: 0.9;">
-                                    An e-commerce platform designed to showcase products, collaborations, and digital content through a visually engaging and responsive user experience.
+                                    An e-commerce platform designed to showcase products, collaborations, and digital
+                                    content through a visually engaging and responsive user experience.
                                 </p>
                                 <p class="monstext text-secondary-copy mb-3" style="font-size:14px; opacity:0.9;">
                                     <strong>Languages:</strong> HTML, CSS, JavaScript, Python<br>
@@ -730,8 +792,8 @@
                                 </p>
                             </div>
                             <div class="d-flex justify-content-between align-items-center mt-4">
-                                <a href="https://drive.google.com/drive/folders/1NOHtrUE9qVscHm3xT_siHm7ZHGQ2Fi6z?usp=sharing" target="_blank"
-                                    rel="noopener noreferrer"
+                                <a href="https://drive.google.com/drive/folders/1NOHtrUE9qVscHm3xT_siHm7ZHGQ2Fi6z?usp=sharing"
+                                    target="_blank" rel="noopener noreferrer"
                                     class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2"
                                     style="font-size: 12px; opacity: 0.8;">
                                     <i class="bi bi-google fs-5"></i> See Google Drive Link
@@ -751,7 +813,7 @@
 
     <!-- MODAL OVERLAY: NURISCALE -->
     <div class="modal fade" id="modalNuriscale" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
             <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
                 <div class="modal-header border-0 p-0 d-flex justify-content-end">
                     <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal"
@@ -763,38 +825,47 @@
                             <div class="project-modal-image-placeholder rounded-5 overflow-hidden">
                                 <div id="carouselNuriscale" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselNuriscale" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselNuriscale" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselNuriscale" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselNuriscale" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselNuriscale" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselNuriscale" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="static/images/Nscale.jpg" class="d-block w-100 project-card-img" alt="NuriScale first project screenshot">
+                                            <img src="static/images/Nscale.jpg" class="d-block w-100 project-card-img"
+                                                alt="NuriScale first project screenshot">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/N1.png" class="d-block w-100 project-card-img" alt="NuriScale - 2">
+                                            <img src="static/images/N1.png" class="d-block w-100 project-card-img"
+                                                alt="NuriScale - 2">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/N2.png" class="d-block w-100 project-card-img" alt="NuriScale - 3">
+                                            <img src="static/images/N2.png" class="d-block w-100 project-card-img"
+                                                alt="NuriScale - 3">
                                         </div>
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselNuriscale" data-bs-slide="prev">
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselNuriscale" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselNuriscale" data-bs-slide="next">
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselNuriscale" data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between py-2">
                             <div>
-                                <h2 class="prata text-pink display-6 mb-4">NuriScale: First Project</h2>
+                                <h2 class="prata text-pink fs-3 fs-md-display-6 mb-3">NuriScale: First Project</h2>
                                 <p class="monstext text-secondary-copy lh-lg mb-4"
                                     style="font-size: 16px; opacity: 0.9;">
-                                    My first development project that introduced me to the fundamentals of designing and building functional digital systems while strengthening my programming foundation.
+                                    My first development project that introduced me to the fundamentals of designing and
+                                    building functional digital systems while strengthening my programming foundation.
                                 </p>
                                 <p class="monstext text-secondary-copy mb-3" style="font-size:14px; opacity:0.9;">
                                     <strong>Languages:</strong> Python<br>
@@ -804,8 +875,8 @@
                                 </p>
                             </div>
                             <div class="d-flex justify-content-between align-items-center mt-4">
-                                <a href="https://drive.google.com/drive/folders/1UwzEYYHtLT181h_k4Ti-6-yE76mndDS8?usp=sharing" target="_blank"
-                                    rel="noopener noreferrer"
+                                <a href="https://drive.google.com/drive/folders/1UwzEYYHtLT181h_k4Ti-6-yE76mndDS8?usp=sharing"
+                                    target="_blank" rel="noopener noreferrer"
                                     class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2"
                                     style="font-size: 12px; opacity: 0.8;">
                                     <i class="bi bi-google fs-5"></i> See Google Drive Link
@@ -824,7 +895,7 @@
 
     <!-- MODAL OVERLAY: NSRP -->
     <div class="modal fade" id="modalNsrp" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
             <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
                 <div class="modal-header border-0 p-0 d-flex justify-content-end">
                     <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal"
@@ -834,26 +905,28 @@
                     <div class="row g-4 align-items-center">
                         <div class="col-12 col-md-6">
                             <div class="project-modal-image-placeholder rounded-5 overflow-hidden">
-                                <img src="static/images/NSRP.png" class="d-block w-100 project-card-img" alt="NSRP SQLite Database screenshot">
+                                <img src="static/images/NSRP.png" class="d-block w-100 project-card-img"
+                                    alt="NSRP SQLite Database screenshot">
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between py-2">
                             <div>
-                                <h2 class="prata text-pink display-6 mb-4">Form: SQLite Database</h2>
+                                <h2 class="prata text-pink fs-3 fs-md-display-6 mb-3">Form: SQLite Database</h2>
                                 <p class="monstext text-secondary-copy lh-lg mb-4"
                                     style="font-size: 16px; opacity: 0.9;">
-                                    A database-driven form system powered by SQLite that manages and organizes records efficiently through structured data handling and CRUD functionalities.
+                                    A database-driven form system powered by SQLite that manages and organizes records
+                                    efficiently through structured data handling and CRUD functionalities.
                                 </p>
                                 <p class="monstext text-secondary-copy mb-3" style="font-size:14px; opacity:0.9;">
                                     <strong>Languages:</strong> Python<br>
                                     <strong>GUI Frameworks:</strong> Tkinter, Pillow<br>
                                     <strong>Database:</strong> SQLite<br>
-                                     <strong>Package Installation Tools:</strong> cURL, Pip Wrapper Scripts
+                                    <strong>Package Installation Tools:</strong> cURL, Pip Wrapper Scripts
                                 </p>
                             </div>
                             <div class="d-flex justify-content-between align-items-center mt-4">
-                                <a href="https://drive.google.com/file/d/1a3ITzOy-QRxp3eYPufmMTxEsbegMRLWk/view?usp=sharing" target="_blank"
-                                    rel="noopener noreferrer"
+                                <a href="https://drive.google.com/file/d/1a3ITzOy-QRxp3eYPufmMTxEsbegMRLWk/view?usp=sharing"
+                                    target="_blank" rel="noopener noreferrer"
                                     class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2"
                                     style="font-size: 12px; opacity: 0.8;">
                                     <i class="bi bi-google fs-5"></i> See Google Drive Link
@@ -872,7 +945,7 @@
 
     <!-- MODAL OVERLAY: PINGGANG PINOY -->
     <div class="modal fade" id="modalPinggang" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
             <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
                 <div class="modal-header border-0 p-0 d-flex justify-content-end">
                     <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal"
@@ -884,51 +957,62 @@
                             <div class="project-modal-image-placeholder rounded-5 overflow-hidden">
                                 <div id="carouselPinggang" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselPinggang" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselPinggang" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselPinggang" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                        <button type="button" data-bs-target="#carouselPinggang" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#carouselPinggang" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselPinggang" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselPinggang" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselPinggang" data-bs-slide-to="3"
+                                            aria-label="Slide 4"></button>
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="static/images/PPinoy.png" class="d-block w-100 project-card-img" alt="Pinggang Pinoy E-commerce screenshot">
+                                            <img src="static/images/PPinoy.png" class="d-block w-100 project-card-img"
+                                                alt="Pinggang Pinoy E-commerce screenshot">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/P1.png" class="d-block w-100 project-card-img" alt="Pinggang Pinoy - 2">
+                                            <img src="static/images/P1.png" class="d-block w-100 project-card-img"
+                                                alt="Pinggang Pinoy - 2">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/P2.png" class="d-block w-100 project-card-img" alt="Pinggang Pinoy - 3">
+                                            <img src="static/images/P2.png" class="d-block w-100 project-card-img"
+                                                alt="Pinggang Pinoy - 3">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/P3.png" class="d-block w-100 project-card-img" alt="Pinggang Pinoy - 4">
+                                            <img src="static/images/P3.png" class="d-block w-100 project-card-img"
+                                                alt="Pinggang Pinoy - 4">
                                         </div>
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPinggang" data-bs-slide="prev">
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselPinggang" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPinggang" data-bs-slide="next">
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselPinggang" data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between py-2">
                             <div>
-                                <h2 class="prata text-pink display-6 mb-4">Pinggang Pinoy: Website</h2>
+                                <h2 class="prata text-pink fs-3 fs-md-display-6 mb-3">Pinggang Pinoy: Website</h2>
                                 <p class="monstext text-secondary-copy lh-lg mb-4"
                                     style="font-size: 16px; opacity: 0.9;">
-                                    A collaborative web-based project that promotes healthier meal planning and accessible nutrition solutions through an interactive and user-friendly platform.
+                                    A collaborative web-based project that promotes healthier meal planning and
+                                    accessible nutrition solutions through an interactive and user-friendly platform.
                                 </p>
                                 <p class="monstext text-secondary-copy mb-3" style="font-size:14px; opacity:0.9;">
                                     <strong>Languages:</strong> HTML, CSS, JavaScript<br>
-                                    <strong>Web API's:</strong> Web Storage API, Native DOM API  <br>
+                                    <strong>Web API's:</strong> Web Storage API, Native DOM API <br>
                                 </p>
                             </div>
                             <div class="d-flex justify-content-between align-items-center mt-4">
-                                <a href="https://drive.google.com/drive/folders/1TGoExEPWtXZhLeYYoVvZUxGsW6ZgDUuL?usp=sharing" target="_blank"
-                                    rel="noopener noreferrer"
+                                <a href="https://drive.google.com/drive/folders/1TGoExEPWtXZhLeYYoVvZUxGsW6ZgDUuL?usp=sharing"
+                                    target="_blank" rel="noopener noreferrer"
                                     class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2"
                                     style="font-size: 12px; opacity: 0.8;">
                                     <i class="bi bi-google fs-5"></i> See Google Drive Link
@@ -953,7 +1037,7 @@
 
     <!-- MODAL OVERLAY: FIGMA -->
     <div class="modal fade" id="modalFigma" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
             <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
                 <div class="modal-header border-0 p-0 d-flex justify-content-end">
                     <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal"
@@ -966,58 +1050,74 @@
                             <div class="project-modal-image-placeholder rounded-5 overflow-hidden">
                                 <div id="carouselFigma" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselFigma" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselFigma" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselFigma" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                        <button type="button" data-bs-target="#carouselFigma" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                        <button type="button" data-bs-target="#carouselFigma" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                                        <button type="button" data-bs-target="#carouselFigma" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                        <button type="button" data-bs-target="#carouselFigma" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselFigma" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselFigma" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselFigma" data-bs-slide-to="3"
+                                            aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#carouselFigma" data-bs-slide-to="4"
+                                            aria-label="Slide 5"></button>
+                                        <button type="button" data-bs-target="#carouselFigma" data-bs-slide-to="5"
+                                            aria-label="Slide 6"></button>
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="static/images/Figma.png" class="d-block w-100 project-card-img" alt="Figma Website Design">
+                                            <img src="static/images/Figma.png" class="d-block w-100 project-card-img"
+                                                alt="Figma Website Design">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/F1.png" class="d-block w-100 project-card-img" alt="Figma Website Design - 2">
+                                            <img src="static/images/F1.png" class="d-block w-100 project-card-img"
+                                                alt="Figma Website Design - 2">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/F2.png" class="d-block w-100 project-card-img" alt="Figma Website Design - 3">
+                                            <img src="static/images/F2.png" class="d-block w-100 project-card-img"
+                                                alt="Figma Website Design - 3">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/F3.png" class="d-block w-100 project-card-img" alt="Figma Website Design - 4">
+                                            <img src="static/images/F3.png" class="d-block w-100 project-card-img"
+                                                alt="Figma Website Design - 4">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/F4.png" class="d-block w-100 project-card-img" alt="Figma Website Design - 5">
+                                            <img src="static/images/F4.png" class="d-block w-100 project-card-img"
+                                                alt="Figma Website Design - 5">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="static/images/F5.png" class="d-block w-100 project-card-img" alt="Figma Website Design - 6">
+                                            <img src="static/images/F5.png" class="d-block w-100 project-card-img"
+                                                alt="Figma Website Design - 6">
                                         </div>
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFigma" data-bs-slide="prev">
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFigma"
+                                        data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFigma" data-bs-slide="next">
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFigma"
+                                        data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between h-100 py-2">
+                        <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between py-2">
                             <div>
-                                <h2 class="prata text-pink display-6 mb-4">Website Designing: Figma</h2>
+                                <h2 class="prata text-pink fs-3 fs-md-display-6 mb-3">Website Designing: Figma</h2>
                                 <p class="monstext text-secondary-copy lh-lg mb-4"
                                     style="font-size: 16px; opacity: 0.9;">
-                                    A collection of website interface designs created in Figma that focus on user-centered design, layout structure, and visual consistency. It highlights to transform ideas into functional UI/UX concepts.
+                                    A collection of website interface designs created in Figma that focus on
+                                    user-centered design, layout structure, and visual consistency. It highlights to
+                                    transform ideas into functional UI/UX concepts.
                                 </p>
                                 <p class="monstext text-secondary-copy mb-3" style="font-size:14px; opacity:0.9;">
                                     <strong>Others:</strong> Animation, Prototyping, Blender<br>
                                 </p>
                             </div>
                             <div class="d-flex justify-content-between align-items-center mt-4">
-                                <a href="https://docs.google.com/document/d/1Vfaoj-y_WZwWcM6W3k7iIV_JyKO6OwLD2fTRTH68leU/edit?usp=sharing" target="_blank"
-                                    rel="noopener noreferrer"
+                                <a href="https://docs.google.com/document/d/1Vfaoj-y_WZwWcM6W3k7iIV_JyKO6OwLD2fTRTH68leU/edit?usp=sharing"
+                                    target="_blank" rel="noopener noreferrer"
                                     class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2"
                                     style="font-size: 12px; opacity: 0.8;">
                                     <i class="bi bi-file-earmark-text fs-5"></i> See Google Docs Link
