@@ -933,14 +933,8 @@ body {
     }
 }
 
-/* --- INTERACTIVE FLOATING AVATAR CONTAINER --- */
+/* --- FLOATING AVATAR --- */
 .floating-avatar-container {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;   
-    z-index: 1050; 
-    width: 120px;  
-    height: auto;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
 }
@@ -962,6 +956,7 @@ body {
     display: block;
 }
 
+/* --- GLOW EFFECTS --- */
 .avatar-glow {
     filter: drop-shadow(0 0 8px rgba(207, 73, 117, 0.6)) 
             drop-shadow(0 0 15px rgba(207, 73, 117, 0.4));
@@ -971,4 +966,13 @@ body {
 .floating-avatar-container:hover .avatar-glow {
     filter: drop-shadow(0 0 12px rgba(207, 73, 117, 0.8)) 
             drop-shadow(0 0 25px rgba(207, 73, 117, 0.6));
+}
+
+.edu-highlight-pill a {
+    color: inherit;
+    transition: color 0.2s ease-in-out;
+}
+
+.edu-highlight-pill:hover a {
+    color: #CF4975 !important;
 }

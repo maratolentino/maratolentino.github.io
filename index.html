@@ -530,9 +530,96 @@
             </footer>
 
             <!-- FLOATING AVATAR -->
-            <div class="floating-avatar-container d-block">
-                <img src="static/images/Idle.png" alt="Idle Avatar" class="img-fluid avatar-glow avatar-idle-img">
-                <img src="static/images/Hover.png" alt="Active Avatar" class="img-fluid avatar-glow avatar-hover-img">
+            <div class="position-fixed bottom-0 end-0 m-3" style="z-index: 1050; width: 120px;" data-bs-toggle="modal"
+                data-bs-target="#getInTouchModal">
+
+                <div class="floating-avatar-container d-none d-lg-block">
+                    <img src="static/images/Idle.png" alt="Idle Avatar" class="img-fluid avatar-glow avatar-idle-img">
+                    <img src="static/images/Hover.png" alt="Active Avatar"
+                        class="img-fluid avatar-glow avatar-hover-img">
+                </div>
+
+                <div class="d-block d-lg-none" style="cursor: pointer;">
+                    <img src="static/images/Hover.png" alt="Avatar" class="img-fluid avatar-glow">
+                </div>
+
+            </div>
+
+            <div class="modal fade" id="getInTouchModal" tabindex="-1" aria-labelledby="getInTouchModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
+
+                        <div class="modal-header border-0 p-0 d-flex justify-content-end">
+                            <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body pt-0 text-center">
+                            <img src="static/images/Click.png" alt="Click" class="img-fluid d-block mx-auto mb-3"
+                                style="max-height: 140px; width:auto;">
+
+                            <h2 class="prata text-pink fs-3 mb-2" id="getInTouchModalLabel">Get In Touch With Me!</h2>
+                            <p class="monstext text-secondary-copy lh-lg mb-1" style="font-size: 15px;">
+                                Let’s collaborate, bring creative ideas to life, or build beautiful applications
+                                together. Reach out anytime!
+                            </p>
+
+                            <hr class="edu-divider mb-1">
+
+                            <div class="d-flex flex-column gap-3 align-items-stretch text-start px-2">
+
+                                <div class="edu-highlight-pill d-flex align-items-center gap-3">
+                                    <i class="bi bi-envelope-fill text-pink fs-5"></i>
+                                    <div>
+                                        <small class="text-pink d-block fw-bold text-uppercase"
+                                            style="font-size: 10px; letter-spacing: 0.05em;">Email Address</small>
+                                        <a href="mailto:maratolentino12@gmail.com"
+                                            class="text-decoration-none text-secondary-copy fw-medium small">maratolentino12@gmail.com</a>
+                                    </div>
+                                </div>
+
+                                <div class="edu-highlight-pill d-flex align-items-center gap-3">
+                                    <i class="bi bi-telephone-fill text-pink fs-5"></i>
+                                    <div>
+                                        <small class="text-pink d-block fw-bold text-uppercase"
+                                            style="font-size: 10px; letter-spacing: 0.05em;">Contact Number</small>
+                                        <span class="text-secondary-copy fw-medium small">09155477213</span>
+                                    </div>
+                                </div>
+
+                                <div class="edu-highlight-pill d-flex align-items-center gap-3">
+                                    <i class="bi bi-github text-pink fs-5"></i>
+                                    <div>
+                                        <small class="text-pink d-block fw-bold text-uppercase"
+                                            style="font-size: 10px; letter-spacing: 0.05em;">GitHub Profile</small>
+                                        <a href="https://github.com/maratolentino" target="_blank"
+                                            rel="noopener noreferrer"
+                                            class="text-decoration-none text-secondary-copy fw-medium small">github.com/maratolentino</a>
+                                    </div>
+                                </div>
+
+                                <div class="edu-highlight-pill d-flex align-items-center gap-3">
+                                    <i class="bi bi-linkedin text-pink fs-5"></i>
+                                    <div>
+                                        <small class="text-pink d-block fw-bold text-uppercase"
+                                            style="font-size: 10px; letter-spacing: 0.05em;">LinkedIn Connection</small>
+                                        <a href="https://www.linkedin.com/in/mara-hanna-irish-tolentino-/"
+                                            target="_blank" rel="noopener noreferrer"
+                                            class="text-decoration-none text-secondary-copy fw-medium small">linkedin.com/in/mara-hanna-irish-tolentino-/</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="px-3 pt-3 border-0 text-center">
+                            <small class="monstext text-secondary-copy" style="font-size: 11px; opacity: 0.7;">Looking
+                                forward to connecting with you!</small>
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
