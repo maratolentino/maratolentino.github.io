@@ -845,6 +845,22 @@ body {
         color: #e3d5da !important;
     }
 
+    /* Blobs */
+    .bg-blobs .blob-1 {
+        background: #5c1e30 !important; /* Deeper, muted magenta-pink */
+        opacity: 0.45;
+    }
+
+    .bg-blobs .blob-2 {
+        background: #4a1525 !important; /* Muted dark rose */
+        opacity: 0.45;
+    }
+
+    .bg-blobs .blob-3 {
+        background: #3d1b24 !important; /* Soft dark pastel maroon */
+        opacity: 0.25;
+    }
+
     /* Chips, Badge, Pills & Icons */
     .skill-chip {
         background-color: rgba(207, 73, 117, 0.15) !important; 
