@@ -802,3 +802,117 @@ body {
 
     footer, footer * { font-size: 0.75rem !important; }
 }
+
+/* Theme Toggle */
+#bd-theme-toggle {
+    color: #CF4975 !important;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+#bd-theme-toggle:hover {
+    color: #a83258 !important;
+    transform: scale(1.1);
+}
+
+[data-bs-theme="dark"] #bd-theme-toggle {
+    color: #f7eef1 !important;
+}
+
+[data-bs-theme="dark"] #bd-theme-toggle:hover {
+    color: #CF4975 !important;
+}
+
+/* Color Mode Adjustments */
+[data-bs-theme="dark"] {
+    body {
+        background: 
+            radial-gradient(120% 80% at 0% 0%, #2b1c22 0%, transparent 60%),
+            radial-gradient(100% 100% at 100% 100%, #241419 0%, transparent 55%),
+            linear-gradient(135deg, #1f1418 0%, #120b0d 100%);
+        background-color: #120b0d;
+        color: #e3d5da;
+    }
+
+    /* Glass Navbar  */
+    .navbar-glass {
+        background-color: rgba(18, 11, 13, 0.45) !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2) !important;
+    }
+
+    .bg-white-card, .toolkit-card, .edu-card, .bg-white {
+        background-color: rgba(30, 20, 24, 0.8) !important;
+        color: #e3d5da !important;
+    }
+
+    /* Chips, Badge, Pills & Icons */
+    .skill-chip {
+        background-color: rgba(207, 73, 117, 0.15) !important; 
+        border: 1px solid rgba(207, 73, 117, 0.4) !important;
+        color: #fceef2 !important;
+    }
+    .skill-chip:hover {
+        background-color: rgba(207, 73, 117, 0.25) !important;
+        border-color: rgba(207, 73, 117, 0.6) !important;
+    }
+
+    .badge {
+        background-color: rgba(207, 73, 117, 0.15) !important; 
+        border: 1px solid rgba(207, 73, 117, 0.4) !important;
+        color: #fceef2 !important;
+    }
+
+    .timeline-node-marker{
+        background-color: rgba(207, 73, 117, 0.15) !important; 
+        border: 1px solid rgba(207, 73, 117, 0.4) !important;
+        color: #fceef2 !important;
+    }
+
+    .icon-box {
+        background-color: rgba(207, 73, 117, 0.15) !important; 
+        border: 1px solid rgba(207, 73, 117, 0.4) !important;
+        color: #fceef2 !important;
+    }
+
+    .edu-highlight-pill {
+        background-color: rgba(207, 73, 117, 0.15) !important; 
+        border: 1px solid rgba(207, 73, 117, 0.4) !important;
+        color: #fceef2 !important;
+    }
+    .edu-highlight-pill:hover {
+        background-color: rgba(207, 73, 117, 0.25) !important;
+        border-color: rgba(207, 73, 117, 0.6) !important;
+    }
+
+    /* Micro Layout Polish & Global Text Values */
+    .text-dark-title, .event-title, .edu-card-title, h1, h2, h3, h5 {
+        color: #f7eef1 !important;
+    }
+    .text-secondary-copy, .event-sub, p.text-muted {
+        color: #c2b2b8 !important;
+    }
+    .edu-divider {
+        border-top: 1.5px solid rgba(255, 255, 255, 0.1) !important;
+    }
+    .dropdown-menu {
+        background-color: rgba(30, 20, 24, 0.95) !important;
+        border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    }
+    .dropdown-item {
+        color: #e3d5da !important;
+    }
+    .dropdown-item:hover, .dropdown-item.active {
+        background-color: rgba(207, 73, 117, 0.2) !important;
+        color: #fff !important;
+    }
+    .hover-floating-icon {
+        background-color: #1e1418 !important;
+        border-color: rgba(207, 73, 117, 0.3) !important;
+    }
+    .project-modal-box {
+        background-color: #160e11 !important;
+    }
+    .bi-check2 {
+        color: #CF4975 !important;
+    }
+}
