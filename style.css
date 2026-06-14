@@ -282,19 +282,6 @@ body {
     flex-shrink: 0;
 }
 
-/* Interactive elements */
-.badge-interactive {
-    cursor: pointer;
-    background-color: rgba(254, 251, 251, 0.95);
-    border: 2px solid #FFDCDB !important;
-    transition: background-color 0.2s ease, border-color 0.2s ease;
-}
-
-.badge-interactive:hover {
-    background-color: #FFDCDB !important;
-    border-color: #FFDCDB !important;
-}
-
 /* Navbar */
 .navbar-glass {
     background-color: rgba(255, 255, 255, 0.4);
@@ -747,3 +734,83 @@ body {
         margin: 1.5rem;
     }
 }
+
+/* ── Mobile font overrides (applied below lg breakpoint) ── */
+@media (max-width: 991.98px) {
+
+  /* Display headings */
+  .display-1 { font-size: 2.5rem !important; }
+  .display-2 { font-size: 2rem !important; }
+  .display-3 { font-size: 1.75rem !important; }
+  .display-4 { font-size: 1.5rem !important; }
+  .display-5 { font-size: 1.25rem !important; }
+  .display-6 { font-size: 1rem !important; }
+
+  /* Bootstrap heading tags */
+  h1, .h1 { font-size: 1.5rem !important; }
+  h2, .h2 { font-size: 1.25rem !important; }
+  h3, .h3 { font-size: 1.1rem !important; }
+  h4, .h4 { font-size: 1rem !important; }
+  h5, .h5 { font-size: 0.9rem !important; }
+  h6, .h6 { font-size: 0.8rem !important; }
+
+  /* Body / paragraph text */
+  p, .text-muted, .subtitle { font-size: 0.85rem !important; }
+
+  /* Navbar links */
+  .navbar-nav .nav-link { font-size: 0.8rem !important; }
+
+  /* Footer text */
+  footer, footer * { font-size: 0.75rem !important; }
+
+  /* Timeline specific */
+  .event-title { font-size: 0.9rem !important; }
+  .event-sub   { font-size: 0.8rem !important; }
+  .year-label  { font-size: 0.85rem !important; }
+
+}
+
+/* ── Skill / Interest Tags — Mobile only ── */
+@media (max-width: 991.98px) {
+
+  .badge,
+  .skill-tag,
+  .tag,
+  [class*="badge"],
+  [class*="tag"],
+  [class*="pill"] {
+    font-size: 0.65rem !important;
+    padding: 0.3rem 0.7rem !important;
+  }
+
+}
+
+/* ── Social Icons — Mobile only ── */
+@media (max-width: 991.98px) {
+
+  .d-flex.gap-3.align-items-center a[aria-label] {
+    font-size: 16px !important;
+  }
+
+}
+
+/* ── Badge/Pill gap — Mobile only ── */
+@media (max-width: 991.98px) {
+
+  .d-flex.flex-wrap.gap-4.justify-content-start {
+    gap: 0.5rem !important;
+  }
+
+}
+
+/* ── Social Icons — Pink glow & outline color ── */
+.d-flex.gap-3.align-items-center a[aria-label] {
+  color: #CF4975 !important;
+  filter: drop-shadow(0 0 6px rgba(207, 73, 117, 0.4));
+  transition: filter 0.2s ease, color 0.2s ease;
+}
+
+.d-flex.gap-3.align-items-center a[aria-label]:hover {
+  filter: drop-shadow(0 0 10px rgba(207, 73, 117, 0.7));
+}
+
