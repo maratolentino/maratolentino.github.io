@@ -932,3 +932,43 @@ body {
         color: #CF4975 !important;
     }
 }
+
+/* --- INTERACTIVE FLOATING AVATAR CONTAINER --- */
+.floating-avatar-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;   
+    z-index: 1050; 
+    width: 120px;  
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.floating-avatar-container:hover {
+    transform: translateY(-5px);
+}
+
+/* --- IMAGE SWAP --- */
+.floating-avatar-container .avatar-hover-img {
+    display: none;
+}
+
+.floating-avatar-container:hover .avatar-idle-img {
+    display: none;
+}
+
+.floating-avatar-container:hover .avatar-hover-img {
+    display: block;
+}
+
+.avatar-glow {
+    filter: drop-shadow(0 0 8px rgba(207, 73, 117, 0.6)) 
+            drop-shadow(0 0 15px rgba(207, 73, 117, 0.4));
+    transition: filter 0.3s ease;
+}
+
+.floating-avatar-container:hover .avatar-glow {
+    filter: drop-shadow(0 0 12px rgba(207, 73, 117, 0.8)) 
+            drop-shadow(0 0 25px rgba(207, 73, 117, 0.6));
+}
