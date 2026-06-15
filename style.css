@@ -936,11 +936,13 @@ body {
 /* --- FLOATING AVATAR --- */
 .floating-avatar-container {
     cursor: pointer;
-    transition: transform 0.3s ease-in-out;
+    animation: floatAnimation 2s ease-in-out infinite;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease;
 }
 
 .floating-avatar-container:hover {
     transform: translateY(-5px);
+    animation-duration: 2s;
 }
 
 /* --- IMAGE SWAP --- */
@@ -975,4 +977,16 @@ body {
 
 .edu-highlight-pill:hover a {
     color: #CF4975 !important;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
