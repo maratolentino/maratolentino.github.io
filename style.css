@@ -1038,6 +1038,9 @@ body {
     background-color: #CF4975;
     vertical-align: -0.12em;
     animation: pulseCursor 1s ease-in-out infinite;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-text-fill-color: initial;
 }
 
 @keyframes pulseCursor {
