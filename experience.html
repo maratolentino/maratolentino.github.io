@@ -71,7 +71,8 @@
             <!--Experience Header-->
             <div class="row mb-5 text-center ">
                 <div class="col-12">
-                    <h1 class="display-4 text-gradient-project prata mb-1">Experiences.</h1>
+                    <h1 class="display-4 prata lh-sm mb-2 text-gradient-project typewriter-heading"
+                        id="typewriterHeading" data-text="Experiences."></h1>
                     <h2 class="h4 text-pink prata text-lowercase mb-2">one chapter at a time</h2>
                     <p class="monstext text-secondary-copy small mb-0" style="opacity: 0.8;">Learning, building, and
                         growing through every opportunity</p>
@@ -601,6 +602,36 @@
                     })
                 })()
             </script>
+
+            <!-- Typewriter Effect Script -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const el = document.getElementById('typewriterHeading');
+            if (!el) return;
+
+            const fullText = el.getAttribute('data-text') || '';
+            let i = 0;
+
+            function randomDelay() {
+                // Most keystrokes are fast, occasional ones are slower (like real typing)
+                const base = 40 + Math.random() * 70; // 40-110ms normal range
+                const isPause = Math.random() < 0.08;  // ~8% chance of a longer pause
+                return isPause ? base + 200 + Math.random() * 250 : base;
+            }
+
+            function typeLetter() {
+                if (i <= fullText.length) {
+                    el.textContent = fullText.slice(0, i);
+                    i++;
+                    setTimeout(typeLetter, randomDelay());
+                } else {
+                    el.classList.add('typing-done');
+                }
+            }
+
+            typeLetter();
+        });
+    </script>
 </body>
 
 </html>

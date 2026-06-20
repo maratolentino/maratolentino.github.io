@@ -135,7 +135,7 @@
                     <!-- Right content -->
                     <div class="col-12 col-md text-start">
                         <span class="text-pink text-lowercase d-block mb-1 small fw-medium">about me</span>
-                        <h1 class="display-5 prata text-dark-title mb-3">Hi! I am Mara</h1>
+                        <h1 class="display-5 prata text-dark-title mb-3 typewriter-heading" data-text="Hi! I am Mara">Hi! I am Mara</h1>
 
                         <div class="monstext text-secondary-copy fs-6 lh-lg">
                             <p class="mb-3" style="font-size: 18px;">
@@ -179,7 +179,8 @@
             <div class="row g-4 g-lg-5 align-items-start">
 
                 <div class="col-12 col-lg-4 text-start scroll-animate">
-                    <h2 class="display-4 prata lh-sm mb-2 text-gradient-project">Technical toolkit.</h2>
+                    <h1 class="display-4 prata lh-sm mb-2 text-gradient-project typewriter-heading"
+                        id="typewriterHeading" data-text="Technical Toolkit."></h1>
                     <p class="monstext text-secondary-copy lh-lg" style="font-size: 16px; opacity: 0.85;">
                         A growing collection of languages, frameworks, and tools I reach for when bringing ideas to
                         life.
@@ -353,10 +354,13 @@
                     </div>
                 </div>
 
+                <br> <br>
+
                 <!-- EDUCATIONAL BACKGROUND -->
-                <div class="row mb-2">
+                <div class="row mb-2 mt-5">
                     <div class="col-12 text-start scroll-animate">
-                        <h2 class="display-4 prata lh-sm mb-2 mt-5 text-gradient-project">Educational Background.</h2>
+                        <h1 class="display-4 prata lh-sm mb-2 text-gradient-project typewriter-heading"
+                        data-text="Educational Background."></h1>
                         <p class="monstext text-secondary-copy lh-lg mb-0" style="font-size: 16px; opacity: 0.85;">
                             The academic steps and key milestones that shaped my expertise.
                         </p>
@@ -700,6 +704,56 @@
                     })
                 })()
             </script>
+
+            <!-- Typewriter Effect Script -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const headings = document.querySelectorAll('.typewriter-heading');
+            if (!headings.length) return;
+
+            function randomDelay() {
+                const base = 40 + Math.random() * 70; // 40-110ms normal range
+                const isPause = Math.random() < 0.08;  // ~8% chance of a longer pause
+                return isPause ? base + 200 + Math.random() * 250 : base;
+            }
+
+            function startTyping(el) {
+                if (el.dataset.typed === 'true') return;
+                el.dataset.typed = 'true';
+
+                const fullText = el.getAttribute('data-text') || '';
+                let i = 0;
+                el.textContent = '';
+
+                function typeLetter() {
+                    if (i <= fullText.length) {
+                        el.textContent = fullText.slice(0, i);
+                        i++;
+                        setTimeout(typeLetter, randomDelay());
+                    } else {
+                        el.classList.add('typing-done');
+                    }
+                }
+
+                typeLetter();
+            }
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        startTyping(entry.target);
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.2
+            });
+
+            headings.forEach((el) => {
+                observer.observe(el);
+            });
+        });
+    </script>
 </body>
 
 </html>
