@@ -512,6 +512,10 @@ body {
     display: block !important;
 }
 
+.project-modal-image-placeholder img.project-modal-image-contain {
+    object-fit: contain !important;
+}
+
 .project-modal-image-placeholder .carousel,
 .project-modal-image-placeholder .carousel-inner {
     height: 100% !important;
