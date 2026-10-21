@@ -97,8 +97,8 @@
                             <div class="project-image-placeholder rounded-4 mb-4 overflow-hidden">
                                 <div class="iframe-preview" data-iframe-width="1280" data-iframe-height="800"
                                     style="position: relative; width: 100%; overflow: hidden; pointer-events: none;">
-                                    <iframe src="https://maratolentino.github.io/WebDev/Bento-Box/Bento-Box/" title="Bento Box preview"
-                                        loading="lazy" tabindex="-1" scrolling="no"
+                                    <iframe src="https://maratolentino.github.io/WebDev/Bento-Box/Bento-Box/"
+                                        title="Bento Box preview" loading="lazy" tabindex="-1" scrolling="no"
                                         style="width: 1280px; height: 800px; border: 0; background: #fff; transform-origin: top left;"></iframe>
                                 </div>
                             </div>
@@ -115,6 +115,40 @@
                             <span class="badge rounded-pill project-status-badge">Done</span>
                             <button class="skill-chip text-pink text-uppercase fw-semibold py-2 px-3 rounded-pill"
                                 data-bs-toggle="modal" data-bs-target="#modalBloom">
+                                See More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD: Json -->
+                <div class="col-12 col-md-4 scroll-animate hover-lift">
+                    <div
+                        class="bg-white border-0 rounded-5 shadow-sm p-3 h-100 toolkit-card d-flex flex-column justify-content-between">
+                        <div>
+
+                            <div class="project-image-placeholder rounded-4 mb-4 overflow-hidden">
+                                <div class="iframe-preview" data-iframe-width="1280" data-iframe-height="800"
+                                    style="position: relative; width: 100%; overflow: hidden; pointer-events: none;">
+                                    <iframe src="https://maratolentino.github.io/WebDev/Json-Act%202/"
+                                        title="Json preview" loading="lazy" tabindex="-1" scrolling="no"
+                                        style="width: 1280px; height: 800px; border: 0; background: #fff; transform-origin: top left;"></iframe>
+                                </div>
+                            </div>
+
+                            <div class="px-2 text-start">
+                                <h3 class="prata text-pink fs-4 mb-2">Json for Weapon List</h3>
+                                <p class="monstext text-secondary-copy lh-lg mb-4" style="font-size: 14px;">
+                                    An interactive catalog that parses and renders structured JSON data showcasing the
+                                    Aeris weapon bundle.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="px-2 pb-2 d-flex justify-content-between align-items-center">
+                            <span class="badge rounded-pill project-status-badge">Done</span>
+                            <button class="skill-chip text-pink text-uppercase fw-semibold py-2 px-3 rounded-pill"
+                                data-bs-toggle="modal" data-bs-target="#modalJson">
                                 See More
                             </button>
                         </div>
@@ -151,7 +185,7 @@
             </div>
 
             <!-- MODAL OVERLAY : Bento Box -->
-            <div class="modal fade" id="modalBloom" tabindex="-1">
+            <div class="modal fade" id="modalBloom" tabindex="-1" aria-labelledby="modalBloomTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
                     <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
 
@@ -175,187 +209,263 @@
                                 </div>
 
 
-                            <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between py-2">
-                                <div>
-                                    <h2 class="prata text-pink fs-3 fs-md-display-6 mb-3">Bento Box</h2>
-                                    <p class="monstext text-secondary-copy lh-lg mb-4"
-                                        style="font-size: 16px; opacity: 0.9;">
-                                        A minimalist sky photography gallery organized into a modular bento box grid
-                                        layout.
-                                    </p>
+                                <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between py-2">
+                                    <div>
+                                        <h2 class="prata text-pink fs-3 fs-md-display-6 mb-3" id="modalBloomTitle">Bento Box</h2>
+                                        <p class="monstext text-secondary-copy lh-lg mb-4"
+                                            style="font-size: 16px; opacity: 0.9;">
+                                            A minimalist sky photography gallery organized into a modular bento box grid
+                                            layout.
+                                        </p>
 
-                                    <div class="tech-badge-container">
-                                        <div class="tech-badge-section">
-                                            <span class="tech-badge-section-title">Languages</span>
-                                            <div class="tech-badge-container">
-                                                <span class="skill-chip">
-                                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                                                        alt="HTML5" class="skill-chip-icon">
-                                                    HTML
+                                        <div class="tech-badge-container">
+                                            <div class="tech-badge-section">
+                                                <span class="tech-badge-section-title">Languages</span>
+                                                <div class="tech-badge-container">
+                                                    <span class="skill-chip">
+                                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                                            alt="HTML5" class="skill-chip-icon">
+                                                        HTML
+                                                    </span>
+                                                </div>
                                             </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between align-items-center mt-4">
+                                        <a href="https://maratolentino.github.io/WebDev/Bento-Box/Bento-Box/"
+                                            target="_blank" rel="noopener noreferrer"
+                                            class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2"
+                                            style="font-size: 12px; opacity: 0.8;">
+                                            <i class="bi bi-github fs-5"></i> See GitHub Repository
+                                        </a>
+                                        <a href="https://maratolentino.github.io/WebDev/Bento-Box/Bento-Box/"
+                                            target="_blank" rel="noopener noreferrer"
+                                            class="skill-chip text-pink text-uppercase fw-semibold py-2 px-4 rounded-pill border-0 d-inline-flex align-items-center justify-content-center"
+                                            style="font-size: 11px; background-color: #FFDCDB; text-decoration: none;">
+                                            View
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="px-3 pt-3 border-0 text-start">
+                            <small class="monstext text-secondary-copy" style="font-size: 11px; opacity: 0.7;">Credits:
+                                Solo
+                                Project</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MODAL OVERLAY : Json -->
+            <div class="modal fade" id="modalJson" tabindex="-1" aria-labelledby="modalJsonTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                    <div class="modal-content border-0 rounded-4 shadow p-3 project-modal-box">
+
+                        <div class="modal-header border-0 p-0 d-flex justify-content-end">
+                            <button type="button" class="btn-close shadow-none m-2" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body pt-0 px-2 px-md-3">
+                            <div class="row g-4 align-items-center">
+
+                                <div class="col-12 col-md-6">
+                                    <div class="project-modal-image-placeholder rounded-5 overflow-hidden">
+                                        <div class="iframe-preview" data-iframe-width="1280" data-iframe-height="700"
+                                            style="position: relative; width: 100%; overflow: hidden;">
+                                            <iframe src="https://maratolentino.github.io/WebDev/Json-Act%202/"
+                                                title="JSON weapon list live preview" loading="lazy"
+                                                style="width: 1280px; height: 700px; border: 0; background: #fff; transform-origin: top left;"></iframe>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="d-flex justify-content-between align-items-center mt-4">
-                                    <a href="https://maratolentino.github.io/WebDev/Bento-Box/Bento-Box/" target="_blank"
-                                        rel="noopener noreferrer"
-                                        class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2"
-                                        style="font-size: 12px; opacity: 0.8;">
-                                        <i class="bi bi-github fs-5"></i> See GitHub Repository
-                                    </a>
-                                    <a href="https://maratolentino.github.io/WebDev/Bento-Box/Bento-Box/" target="_blank"
-                                        rel="noopener noreferrer"
-                                        class="skill-chip text-pink text-uppercase fw-semibold py-2 px-4 rounded-pill border-0 d-inline-flex align-items-center justify-content-center"
-                                        style="font-size: 11px; background-color: #FFDCDB; text-decoration: none;">
-                                        View
-                                    </a>
+
+                                <div class="col-12 col-md-6 text-start d-flex flex-column justify-content-between py-2">
+                                    <div>
+                                        <h2 class="prata text-pink fs-3 fs-md-display-6 mb-3" id="modalJsonTitle">Json for Weapon List</h2>
+                                        <p class="monstext text-secondary-copy lh-lg mb-4"
+                                            style="font-size: 16px; opacity: 0.9;">
+                                            An interactive catalog that parses and renders structured JSON data showcasing the
+                                            Aeris weapon bundle.
+                                        </p>
+
+                                        <div class="tech-badge-container">
+                                            <div class="tech-badge-section">
+                                                <span class="tech-badge-section-title">Languages</span>
+                                                <div class="tech-badge-container">
+                                                    <span class="skill-chip">
+                                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                                            alt="HTML5" class="skill-chip-icon">
+                                                        HTML
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between align-items-center mt-4">
+                                        <a href="https://github.com/maratolentino/WebDev/tree/main/Json-Act%202"
+                                            target="_blank" rel="noopener noreferrer"
+                                            class="monstext small text-pink text-decoration-underline d-flex align-items-center gap-2"
+                                            style="font-size: 12px; opacity: 0.8;">
+                                            <i class="bi bi-github fs-5"></i> See GitHub Repository
+                                        </a>
+                                        <a href="https://maratolentino.github.io/WebDev/Json-Act%202/" target="_blank"
+                                            rel="noopener noreferrer"
+                                            class="skill-chip text-pink text-uppercase fw-semibold py-2 px-4 rounded-pill border-0 d-inline-flex align-items-center justify-content-center"
+                                            style="font-size: 11px; background-color: #FFDCDB; text-decoration: none;">
+                                            View
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="px-3 pt-3 border-0 text-start">
-                        <small class="monstext text-secondary-copy" style="font-size: 11px; opacity: 0.7;">Credits:
-                            Solo
-                            Project</small>
+                        <div class="px-3 pt-3 border-0 text-start">
+                            <small class="monstext text-secondary-copy" style="font-size: 11px; opacity: 0.7;">Credits:
+                                Solo
+                                Project</small>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                crossorigin="anonymous"></script>
 
-        <!-- Scroll Animation Script -->
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                const animatedElements = document.querySelectorAll('.scroll-animate');
+            <!-- Scroll Animation Script -->
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    const animatedElements = document.querySelectorAll('.scroll-animate');
 
-                const observer = new IntersectionObserver((entries) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            entry.target.classList.add('active');
-                        }
+                    const observer = new IntersectionObserver((entries) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                entry.target.classList.add('active');
+                            }
+                        });
+                    }, {
+                        threshold: 0.1 // Triggers when 10% of the element is visible
                     });
-                }, {
-                    threshold: 0.1 // Triggers when 10% of the element is visible
+
+                    animatedElements.forEach(element => observer.observe(element));
                 });
+            </script>
 
-                animatedElements.forEach(element => observer.observe(element));
-            });
-        </script>
+            <!-- Theme Toggle Script -->
+            <script>
+                (() => {
+                    'use strict'
 
-        <!-- Theme Toggle Script -->
-        <script>
-            (() => {
-                'use strict'
+                    const getStoredTheme = () => localStorage.getItem('theme')
+                    const setStoredTheme = theme => localStorage.setItem('theme', theme)
 
-                const getStoredTheme = () => localStorage.getItem('theme')
-                const setStoredTheme = theme => localStorage.setItem('theme', theme)
-
-                const getPreferredTheme = () => {
-                    const storedTheme = getStoredTheme()
-                    if (storedTheme) {
-                        return storedTheme
+                    const getPreferredTheme = () => {
+                        const storedTheme = getStoredTheme()
+                        if (storedTheme) {
+                            return storedTheme
+                        }
+                        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
                     }
-                    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-                }
 
-                const setTheme = theme => {
-                    document.documentElement.setAttribute('data-bs-theme', theme)
-                }
-
-                const currentTheme = getPreferredTheme()
-                setTheme(currentTheme)
-
-                const updateToggleIcon = (theme) => {
-                    const toggleButton = document.querySelector('#bd-theme-toggle')
-                    if (!toggleButton) return
-
-                    const icon = toggleButton.querySelector('.theme-icon-active')
-                    if (theme === 'dark') {
-                        icon.className = 'bi bi-moon-stars-fill theme-icon-active'
-                    } else {
-                        icon.className = 'bi bi-sun-fill theme-icon-active'
+                    const setTheme = theme => {
+                        document.documentElement.setAttribute('data-bs-theme', theme)
                     }
-                }
 
-                window.addEventListener('DOMContentLoaded', () => {
-                    const activeTheme = getPreferredTheme()
-                    updateToggleIcon(activeTheme)
+                    const currentTheme = getPreferredTheme()
+                    setTheme(currentTheme)
 
-                    const toggleButton = document.querySelector('#bd-theme-toggle')
-                    if (toggleButton) {
-                        toggleButton.addEventListener('click', () => {
-                            // Flip the current state
-                            const newTheme = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark'
+                    const updateToggleIcon = (theme) => {
+                        const toggleButton = document.querySelector('#bd-theme-toggle')
+                        if (!toggleButton) return
 
-                            setStoredTheme(newTheme)
-                            setTheme(newTheme)
-                            updateToggleIcon(newTheme)
-                        })
+                        const icon = toggleButton.querySelector('.theme-icon-active')
+                        if (theme === 'dark') {
+                            icon.className = 'bi bi-moon-stars-fill theme-icon-active'
+                        } else {
+                            icon.className = 'bi bi-sun-fill theme-icon-active'
+                        }
                     }
-                })
-            })()
-        </script>
 
-        <!-- Typewriter Effect Script -->
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                const el = document.getElementById('typewriterHeading');
-                if (!el) return;
+                    window.addEventListener('DOMContentLoaded', () => {
+                        const activeTheme = getPreferredTheme()
+                        updateToggleIcon(activeTheme)
 
-                const fullText = el.getAttribute('data-text') || '';
-                let i = 0;
+                        const toggleButton = document.querySelector('#bd-theme-toggle')
+                        if (toggleButton) {
+                            toggleButton.addEventListener('click', () => {
+                                // Flip the current state
+                                const newTheme = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark'
 
-                function randomDelay() {
-                    // Most keystrokes are fast, occasional ones are slower (like real typing)
-                    const base = 40 + Math.random() * 70; // 40-110ms normal range
-                    const isPause = Math.random() < 0.08;  // ~8% chance of a longer pause
-                    return isPause ? base + 200 + Math.random() * 250 : base;
-                }
+                                setStoredTheme(newTheme)
+                                setTheme(newTheme)
+                                updateToggleIcon(newTheme)
+                            })
+                        }
+                    })
+                })()
+            </script>
 
-                function typeLetter() {
-                    if (i <= fullText.length) {
-                        el.textContent = fullText.slice(0, i);
-                        i++;
-                        setTimeout(typeLetter, randomDelay());
-                    } else {
-                        el.classList.add('typing-done');
+            <!-- Typewriter Effect Script -->
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    const el = document.getElementById('typewriterHeading');
+                    if (!el) return;
+
+                    const fullText = el.getAttribute('data-text') || '';
+                    let i = 0;
+
+                    function randomDelay() {
+                        // Most keystrokes are fast, occasional ones are slower (like real typing)
+                        const base = 40 + Math.random() * 70; // 40-110ms normal range
+                        const isPause = Math.random() < 0.08;  // ~8% chance of a longer pause
+                        return isPause ? base + 200 + Math.random() * 250 : base;
                     }
-                }
 
-                typeLetter();
-            });
-        </script>
+                    function typeLetter() {
+                        if (i <= fullText.length) {
+                            el.textContent = fullText.slice(0, i);
+                            i++;
+                            setTimeout(typeLetter, randomDelay());
+                        } else {
+                            el.classList.add('typing-done');
+                        }
+                    }
 
-        <script>
-            document.addEventListener("DOMContentLoaded", () => {
-                const previews = document.querySelectorAll('.iframe-preview');
+                    typeLetter();
+                });
+            </script>
 
-                const fit = (box) => {
-                    const w = parseInt(box.dataset.iframeWidth, 10) || 1280;
-                    const h = parseInt(box.dataset.iframeHeight, 10) || 800;
-                    const iframe = box.querySelector('iframe');
-                    if (!box.clientWidth) return;            // hidden (closed modal)
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    const previews = document.querySelectorAll('.iframe-preview');
 
-                    const scale = box.clientWidth / w;
-                    iframe.style.transform = `scale(${scale})`;
-                    box.style.height = `${h * scale}px`;
+                    const fit = (box) => {
+                        const w = parseInt(box.dataset.iframeWidth, 10) || 1280;
+                        const h = parseInt(box.dataset.iframeHeight, 10) || 800;
+                        const iframe = box.querySelector('iframe');
+                        if (!box.clientWidth) return;            // hidden (closed modal)
 
-                    // Override any fixed height on the parent wrapper from style.css
-                    const wrapper = box.parentElement;
-                    wrapper.style.setProperty('height', 'auto', 'important');
-                    wrapper.style.setProperty('min-height', '0', 'important');
-                    wrapper.style.setProperty('aspect-ratio', 'auto', 'important');
-                };
+                        const scale = box.clientWidth / w;
+                        iframe.style.transform = `scale(${scale})`;
+                        box.style.height = `${h * scale}px`;
 
-                const ro = new ResizeObserver(entries => entries.forEach(e => fit(e.target)));
-                previews.forEach(box => { ro.observe(box); fit(box); });
-            });
-        </script>
+                        // Override any fixed height on the parent wrapper from style.css
+                        const wrapper = box.parentElement;
+                        wrapper.style.setProperty('height', 'auto', 'important');
+                        wrapper.style.setProperty('min-height', '0', 'important');
+                        wrapper.style.setProperty('aspect-ratio', 'auto', 'important');
+                    };
+
+                    const ro = new ResizeObserver(entries => entries.forEach(e => fit(e.target)));
+                    previews.forEach(box => { ro.observe(box); fit(box); });
+                });
+            </script>
 </body>
 
 </html>
